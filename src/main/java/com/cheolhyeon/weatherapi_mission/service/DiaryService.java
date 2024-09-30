@@ -41,14 +41,11 @@ public class DiaryService {
 
     private final DateWeatherRepository dateWeatherRepository;
 
-
-
     @Transactional
     @Scheduled(cron = "0 0 1 * * *")
     @RequestDateLogging
     public void saveDateWeather() {
         dateWeatherRepository.save(getDateWeather());
-        log.info("Get Today Weather Data");
     }
 
     private DateWeather getDateWeather() {
@@ -74,26 +71,39 @@ public class DiaryService {
 
     @Transactional(readOnly = true)
     public List<Diary> readDiary(LocalDate date) {
-        return diaryRepository.findAllByDate(date);
+        List<Diary> allByDate = diaryRepository.findAllByDate(date);
+        validationByDate(allByDate);
+        return allByDate;
+    }
+
+    private void validationByDate(List<Diary> allByDate) {
+        if (allByDate.isEmpty()) {
+            throw new DiaryException(ErrorCode.LIST_IS_EMPTY);
+        }
     }
 
     @Transactional
     public Diary updateDiary(LocalDate date, String updateText) {
         Diary findDiary = diaryRepository.findFirstByDate(date).orElseThrow(
                 () -> new DiaryException(ErrorCode.DATE_NOT_FOUND));
-        log.info("findFirstByDate = {}", findDiary.getDate());
         findDiary.setText(updateText);
         return findDiary;
     }
 
     @Transactional
     public Integer deleteDiary(LocalDate date) {
-        return diaryRepository.deleteAllByDate(date);
+        Integer count = diaryRepository.deleteAllByDate(date);
+        if (count == null) {
+            throw new DiaryException(ErrorCode.DATE_NOT_FOUND);
+        }
+        return count;
     }
 
     @Transactional(readOnly = true)
     public List<Diary> readDiaries(LocalDate startDate, LocalDate endDate) {
-        return diaryRepository.findAllByDateBetween(startDate, endDate);
+        List<Diary> allByDateBetween = diaryRepository.findAllByDateBetween(startDate, endDate);
+        validationByDate(allByDateBetween);
+        return allByDateBetween;
     }
 
     private Map<String, Object> parseWeatherToJson(String weatherJsonString) {
