@@ -14,7 +14,7 @@ import java.time.format.DateTimeFormatter;
 @Component
 @Slf4j
 public class DateLoggingService {
-    @Around("@annotation(com.cheolhyeon.weatherapi.aop.RequestDateLogging)")
+    @Around("@annotation(com.cheolhyeon.weatherapi_mission.aop.RequestDateLogging)")
     public Object dateLogging(ProceedingJoinPoint joinPoint) throws Throwable {
         LocalDateTime now = LocalDateTime.now();
         String format = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss").format(now);

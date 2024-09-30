@@ -9,6 +9,7 @@ import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import jakarta.persistence.GeneratedValue;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -22,8 +23,8 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 public class DiaryController {
-    private final DiaryService diaryService;
 
+    private final DiaryService diaryService;
 
     @PostMapping("/create/diary")
     @RequestDateLogging
@@ -34,13 +35,14 @@ public class DiaryController {
         return ResponseEntity.ok(diary);
     }
 
-    @GetMapping("/read/diary")
+
     @Operation(summary = "파라미터로 들어온 날짜 읽어오기")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "성공",
                     content = {@Content(schema = @Schema(implementation = Diary.class))}),
             @ApiResponse(responseCode = "404", description = "해당 날짜가 아직 DB에 없는것임!!"),
     })
+    @GetMapping("/read/diary")
     public ResponseEntity<List<Diary>> readDiary(
             @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
             @Parameter(description = "날짜 형식 : yyyy-MM-dd", example = "2020-04-03") LocalDate date) {
@@ -57,6 +59,7 @@ public class DiaryController {
         List<Diary> diaries = diaryService.readDiaries(startDate, endDate);
         return ResponseEntity.ok(diaries);
     }
+
     @PutMapping("/update/diary")
     public ResponseEntity<Diary> updateDiary(
             @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)

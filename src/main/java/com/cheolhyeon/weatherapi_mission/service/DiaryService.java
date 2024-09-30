@@ -44,7 +44,7 @@ public class DiaryService {
 
 
     @Transactional
-    @Scheduled(cron = "0 30 9 * Jan Mon")
+    @Scheduled(cron = "0 0 1 * * *")
     @RequestDateLogging
     public void saveDateWeather() {
         dateWeatherRepository.save(getDateWeather());

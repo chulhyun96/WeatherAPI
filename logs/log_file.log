@@ -54,3 +54,665 @@
 [2024-09-30 13:37:35:242968][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 [2024-09-30 13:37:35:242972][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 [2024-09-30 13:37:35:242975][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[2024-09-30 13:40:25:368][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 13:40:25:393][main] INFO  c.c.w.WeatherApiMissionApplication - Starting WeatherApiMissionApplication using Java 17.0.9 with PID 86889 (/Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission/build/classes/java/main started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 13:40:25:394][main] INFO  c.c.w.WeatherApiMissionApplication - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 13:40:26:833][main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-09-30 13:40:26:863][main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces.
+[2024-09-30 13:40:26:1234][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[2024-09-30 13:40:26:1241][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[2024-09-30 13:40:26:1243][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2024-09-30 13:40:26:1243][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+[2024-09-30 13:40:26:1274][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2024-09-30 13:40:26:1274][main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 859 ms
+[2024-09-30 13:40:26:1360][main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-09-30 13:40:26:1396][main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+[2024-09-30 13:40:26:1415][main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2024-09-30 13:40:27:1601][main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-09-30 13:40:27:1617][main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2024-09-30 13:40:27:1675][main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@417446d9
+[2024-09-30 13:40:27:1676][main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2024-09-30 13:40:27:2186][main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-09-30 13:40:27:2210][main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-09-30 13:40:27:2215][main] INFO  c.c.w.config.AppConfig - Java version: 17.0.9
+[2024-09-30 13:40:28:2925][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[2024-09-30 13:40:28:2936][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[2024-09-30 13:40:28:2947][main] INFO  c.c.w.WeatherApiMissionApplication - Started WeatherApiMissionApplication in 2.85 seconds (process running for 3.21)
+[2024-09-30 13:40:39:13677][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-09-30 13:40:39:13681][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2024-09-30 13:40:39:13684][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[2024-09-30 13:40:50:331][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 13:40:50:360][main] INFO  c.c.w.WeatherApiMissionApplication - Starting WeatherApiMissionApplication using Java 17.0.9 with PID 86923 (/Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission/build/classes/java/main started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 13:40:50:361][main] INFO  c.c.w.WeatherApiMissionApplication - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 13:40:50:811][main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-09-30 13:40:50:842][main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+[2024-09-30 13:40:51:1218][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[2024-09-30 13:40:51:1225][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[2024-09-30 13:40:51:1227][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2024-09-30 13:40:51:1227][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+[2024-09-30 13:40:51:1261][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2024-09-30 13:40:51:1261][main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 867 ms
+[2024-09-30 13:40:51:1348][main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-09-30 13:40:51:1381][main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+[2024-09-30 13:40:51:1399][main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2024-09-30 13:40:51:1596][main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-09-30 13:40:51:1613][main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2024-09-30 13:40:51:1660][main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@25ea068e
+[2024-09-30 13:40:51:1661][main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2024-09-30 13:40:52:2193][main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-09-30 13:40:52:2220][main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-09-30 13:40:52:2225][main] INFO  c.c.w.config.AppConfig - Java version: 17.0.9
+[2024-09-30 13:40:52:3016][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[2024-09-30 13:40:52:3027][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[2024-09-30 13:40:52:3039][main] INFO  c.c.w.WeatherApiMissionApplication - Started WeatherApiMissionApplication in 2.962 seconds (process running for 3.288)
+[2024-09-30 13:40:56:6561][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-09-30 13:40:56:6563][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2024-09-30 13:40:56:6578][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[2024-09-30 13:41:05:311][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 13:41:05:334][main] INFO  c.c.w.WeatherApiMissionApplication - Starting WeatherApiMissionApplication using Java 17.0.9 with PID 86942 (/Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission/build/classes/java/main started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 13:41:05:335][main] INFO  c.c.w.WeatherApiMissionApplication - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 13:41:05:767][main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-09-30 13:41:05:798][main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+[2024-09-30 13:41:06:1161][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[2024-09-30 13:41:06:1167][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[2024-09-30 13:41:06:1169][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2024-09-30 13:41:06:1169][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+[2024-09-30 13:41:06:1200][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2024-09-30 13:41:06:1200][main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 836 ms
+[2024-09-30 13:41:06:1288][main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-09-30 13:41:06:1319][main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+[2024-09-30 13:41:06:1337][main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2024-09-30 13:41:06:1519][main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-09-30 13:41:06:1535][main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2024-09-30 13:41:06:1579][main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4805069b
+[2024-09-30 13:41:06:1580][main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2024-09-30 13:41:07:2080][main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-09-30 13:41:07:2104][main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-09-30 13:41:07:2109][main] INFO  c.c.w.config.AppConfig - Java version: 17.0.9
+[2024-09-30 13:41:07:2824][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[2024-09-30 13:41:07:2834][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[2024-09-30 13:41:07:2844][main] INFO  c.c.w.WeatherApiMissionApplication - Started WeatherApiMissionApplication in 2.771 seconds (process running for 3.098)
+[2024-09-30 13:41:08:2960][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:41:08
+[2024-09-30 13:41:08:3691][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:41:08:3734][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:41:09:3949][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:41:09
+[2024-09-30 13:41:09:4057][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:41:09:4060][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:41:10:4950][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:41:10
+[2024-09-30 13:41:10:5059][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:41:10:5061][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:41:11:5946][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:41:11
+[2024-09-30 13:41:11:6062][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:41:11:6065][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:41:12:6950][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:41:12
+[2024-09-30 13:41:12:7058][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:41:12:7062][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:41:13:7950][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:41:13
+[2024-09-30 13:41:13:8059][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:41:13:8062][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:41:14:8950][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:41:14
+[2024-09-30 13:41:14:9061][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:41:14:9064][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:41:15:9950][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:41:15
+[2024-09-30 13:41:15:10209][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:41:15:10212][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:41:16:10950][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:41:16
+[2024-09-30 13:41:16:11128][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:41:16:11132][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:41:17:11950][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:41:17
+[2024-09-30 13:41:17:12177][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:41:17:12179][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:41:18:12957][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:41:18
+[2024-09-30 13:41:18:13121][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:41:18:13123][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:41:18:13132][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-09-30 13:41:18:13135][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2024-09-30 13:41:18:13138][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[2024-09-30 13:54:24:506][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 13:54:24:534][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 87279 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 13:54:24:535][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 13:54:26:2252][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 13:54:26:2252][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 13:54:26:2254][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 13:54:26:2281][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 2.019 seconds (process running for 2.784)
+[2024-09-30 13:54:26:2380][Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'date' for method parameter type LocalDate is not present]
+[2024-09-30 13:54:48:368][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 13:54:48:393][main] INFO  c.c.w.WeatherApiMissionApplication - Starting WeatherApiMissionApplication using Java 17.0.9 with PID 87299 (/Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission/build/classes/java/main started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 13:54:48:393][main] INFO  c.c.w.WeatherApiMissionApplication - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 13:54:48:877][main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-09-30 13:54:48:910][main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
+[2024-09-30 13:54:49:1304][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[2024-09-30 13:54:49:1310][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[2024-09-30 13:54:49:1312][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2024-09-30 13:54:49:1312][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+[2024-09-30 13:54:49:1345][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2024-09-30 13:54:49:1345][main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 924 ms
+[2024-09-30 13:54:49:1443][main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-09-30 13:54:49:1482][main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+[2024-09-30 13:54:49:1504][main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2024-09-30 13:54:49:1701][main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-09-30 13:54:49:1718][main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2024-09-30 13:54:49:1778][main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@74bfdd66
+[2024-09-30 13:54:49:1779][main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2024-09-30 13:54:50:2340][main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-09-30 13:54:50:2379][main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-09-30 13:54:50:2384][main] INFO  c.c.w.config.AppConfig - Java version: 17.0.9
+[2024-09-30 13:54:51:3242][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[2024-09-30 13:54:51:3257][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[2024-09-30 13:54:51:3268][main] INFO  c.c.w.WeatherApiMissionApplication - Started WeatherApiMissionApplication in 3.188 seconds (process running for 3.658)
+[2024-09-30 13:54:52:3936][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:54:52
+[2024-09-30 13:54:52:4491][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:54:52:4525][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:54:53:4922][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:54:53
+[2024-09-30 13:54:53:5099][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:54:53:5102][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:54:54:5920][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:54:54
+[2024-09-30 13:54:54:6040][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:54:54:6043][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:54:55:6919][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:54:55
+[2024-09-30 13:54:55:7057][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:54:55:7059][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:54:56:7920][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:54:56
+[2024-09-30 13:54:56:8104][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:54:56:8106][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:54:57:8973][scheduling-1] INFO  c.c.w.service.DateLoggingService - Request Date = 2024-09-30 13:54:57
+[2024-09-30 13:54:57:9153][scheduling-1] INFO  c.c.w.service.DiaryService - HTTP API 데이터 가져오기
+[2024-09-30 13:54:57:9155][scheduling-1] INFO  c.c.w.service.DiaryService - Get Today Weather Data
+[2024-09-30 13:54:57:9164][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-09-30 13:54:57:9167][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2024-09-30 13:54:57:9169][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[2024-09-30 13:55:36:1404][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 13:55:36:1530][main] INFO  c.c.w.WeatherApiMissionApplication - Starting WeatherApiMissionApplication using Java 17.0.9 with PID 87325 (/Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission/build/classes/java/main started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 13:55:36:1531][main] INFO  c.c.w.WeatherApiMissionApplication - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 13:55:36:2095][main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-09-30 13:55:37:2131][main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces.
+[2024-09-30 13:55:37:2519][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[2024-09-30 13:55:37:2526][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[2024-09-30 13:55:37:2528][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2024-09-30 13:55:37:2528][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+[2024-09-30 13:55:37:2561][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2024-09-30 13:55:37:2562][main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 967 ms
+[2024-09-30 13:55:37:2654][main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-09-30 13:55:37:2686][main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+[2024-09-30 13:55:37:2703][main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2024-09-30 13:55:37:2880][main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-09-30 13:55:37:2896][main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2024-09-30 13:55:37:2945][main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@35cbeb54
+[2024-09-30 13:55:37:2947][main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2024-09-30 13:55:38:3484][main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-09-30 13:55:38:3527][main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-09-30 13:55:38:3532][main] INFO  c.c.w.config.AppConfig - Java version: 17.0.9
+[2024-09-30 13:55:39:4323][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[2024-09-30 13:55:39:4334][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[2024-09-30 13:55:39:4345][main] INFO  c.c.w.WeatherApiMissionApplication - Started WeatherApiMissionApplication in 4.202 seconds (process running for 4.648)
+[2024-09-30 13:59:26:470][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 13:59:26:498][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 87421 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 13:59:26:499][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 13:59:28:2070][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 13:59:28:2070][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 13:59:28:2073][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 13:59:28:2098][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.86 seconds (process running for 2.583)
+[2024-09-30 13:59:28:2185][Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'date' for method parameter type LocalDate is not present]
+[2024-09-30 13:59:52:476][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 13:59:52:498][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 87448 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 13:59:52:499][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 13:59:54:2164][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 13:59:54:2164][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 13:59:54:2166][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 13:59:54:2190][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.949 seconds (process running for 2.669)
+[2024-09-30 14:00:28:489][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:00:28:511][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 87473 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:00:28:512][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:00:30:2195][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:00:30:2195][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:00:30:2198][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:00:30:2223][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.976 seconds (process running for 2.736)
+[2024-09-30 14:00:30:2328][Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'date' for method parameter type LocalDate is not present]
+[2024-09-30 14:01:05:529][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:01:05:552][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 87497 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:01:05:553][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:01:07:2208][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:01:07:2209][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:01:07:2211][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:01:07:2237][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.974 seconds (process running for 2.761)
+[2024-09-30 14:01:07:2335][Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'date' for method parameter type LocalDate is not present]
+[2024-09-30 14:01:18:477][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:01:18:499][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 87507 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:01:18:500][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:01:19:2167][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:01:19:2168][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:01:19:2170][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:01:19:2196][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.962 seconds (process running for 2.716)
+[2024-09-30 14:01:44:482][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:01:44:506][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 87525 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:01:44:507][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:01:46:2212][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:01:46:2213][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:01:46:2215][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:01:46:2241][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.99 seconds (process running for 2.725)
+[2024-09-30 14:01:46:2336][Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'date' for method parameter type LocalDate is not present]
+[2024-09-30 14:03:06:485][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:03:06:512][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 87566 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:03:06:513][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:03:07:2113][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:03:07:2114][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:03:07:2116][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:03:07:2139][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.902 seconds (process running for 2.595)
+[2024-09-30 14:03:25:450][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:03:25:470][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 87591 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:03:25:471][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:03:26:2044][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:03:26:2044][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:03:26:2046][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:03:26:2068][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.839 seconds (process running for 2.521)
+[2024-09-30 14:09:35:840975][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=27s811ms), soft-evicting connections from pool.
+[2024-09-30 14:21:20:454][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:21:20:477][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 87964 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:21:20:478][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:21:22:2034][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:21:22:2034][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:21:22:2037][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+[2024-09-30 14:21:22:2060][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.832 seconds (process running for 2.538)
+[2024-09-30 14:23:12:500][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:23:12:526][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 88012 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:23:12:527][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:23:13:2181][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:23:13:2181][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:23:13:2183][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:23:13:2207][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.955 seconds (process running for 2.764)
+[2024-09-30 14:25:20:484][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:25:20:503][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 88067 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:25:20:505][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:25:22:2220][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:25:22:2220][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:25:22:2223][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+[2024-09-30 14:25:22:2252][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.999 seconds (process running for 2.753)
+[2024-09-30 14:30:21:455][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:30:21:476][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 88212 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:30:21:477][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:30:22:2030][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:30:22:2030][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:30:22:2032][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:30:22:2058][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.826 seconds (process running for 2.54)
+[2024-09-30 14:32:26:492][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:32:26:514][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 88274 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:32:26:515][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:32:28:2171][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:32:28:2171][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:32:28:2174][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+[2024-09-30 14:32:28:2201][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.953 seconds (process running for 2.732)
+[2024-09-30 14:37:58:460][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:37:58:480][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 88412 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:37:58:481][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:38:00:2065][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:38:00:2066][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:38:00:2068][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:38:00:2093][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.859 seconds (process running for 2.632)
+[2024-09-30 14:38:08:474][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:38:08:513][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 88430 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:38:08:516][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:38:09:2058][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:38:09:2058][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:38:09:2061][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+[2024-09-30 14:38:09:2085][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.829 seconds (process running for 2.596)
+[2024-09-30 14:38:51:499][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:38:51:522][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 88459 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:38:51:523][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:38:53:2223][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:38:53:2223][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:38:53:2225][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:38:53:2255][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.996 seconds (process running for 2.794)
+[2024-09-30 14:41:12:466][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:41:12:487][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 88526 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:41:12:488][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:41:13:2043][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:41:13:2043][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:41:13:2045][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:41:13:2068][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.833 seconds (process running for 2.552)
+[2024-09-30 14:42:54:555][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:42:54:583][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 88575 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:42:54:584][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:42:56:2469][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:42:56:2469][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:42:56:2472][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:42:56:2502][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 2.21 seconds (process running for 3.037)
+[2024-09-30 14:43:07:2852612][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-09-30 14:43:07:2852617][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2024-09-30 14:43:07:2852633][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[2024-09-30 14:43:11:493][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:43:11:516][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 88594 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:43:12:518][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:43:13:2275][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:43:13:2275][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:43:13:2278][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:43:13:2306][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 2.05 seconds (process running for 2.98)
+[2024-09-30 14:43:50:501][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:43:50:525][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 88611 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:43:50:526][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:43:52:2054][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:43:52:2054][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:43:52:2056][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:43:52:2079][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.827 seconds (process running for 2.621)
+[2024-09-30 14:46:14:487][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:46:14:513][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 88670 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:46:14:514][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:46:16:2206][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:46:16:2206][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:46:16:2208][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:46:16:2236][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.99 seconds (process running for 2.737)
+[2024-09-30 14:50:08:481][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:50:08:508][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 88784 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:50:08:509][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:50:09:2191][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:50:09:2192][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:50:09:2194][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:50:09:2218][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.965 seconds (process running for 2.696)
+[2024-09-30 14:52:58:527][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 14:52:58:548][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 88859 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 14:52:58:549][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 14:53:00:2283][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 14:53:00:2283][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 14:53:00:2286][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 14:53:00:2309][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 2.055 seconds (process running for 2.802)
+[2024-09-30 15:00:05:480][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 15:00:05:502][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 89017 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 15:00:05:503][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 15:00:06:2089][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 15:00:06:2090][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 15:00:06:2092][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 15:00:06:2117][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.871 seconds (process running for 2.599)
+[2024-09-30 15:00:06:2210][Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'date' for method parameter type LocalDate is not present]
+[2024-09-30 15:00:06:2221][Test worker] WARN  o.s.test.context.TestContextManager - Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener] for test method [void com.cheolhyeon.weatherapi_mission.controller.DiaryControllerTest.updateDiary() throws java.lang.Exception] and test instance [com.cheolhyeon.weatherapi_mission.controller.DiaryControllerTest@5807ea46]
+org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Misplaced or misused argument matcher detected here:
+
+-> at com.cheolhyeon.weatherapi_mission.controller.DiaryControllerTest.updateDiary(DiaryControllerTest.java:151)
+
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(any());
+    verify(mock).someMethod(contains("foo"))
+
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.resetMocks(ResetMocksTestExecutionListener.java:86)
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.resetMocks(ResetMocksTestExecutionListener.java:73)
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.afterTestMethod(ResetMocksTestExecutionListener.java:67)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:487)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.afterEach(SpringExtension.java:278)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachCallbacks$12(TestMethodTestDescriptor.java:261)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:277)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$14(TestMethodTestDescriptor.java:277)
+	at org.junit.platform.commons.util.CollectionUtils.forEachInReverseOrder(CollectionUtils.java:217)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:276)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachCallbacks(TestMethodTestDescriptor.java:260)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:145)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+[2024-09-30 15:00:27:475][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 15:00:27:499][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 89041 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 15:00:27:500][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 15:00:29:2196][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 15:00:29:2196][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 15:00:29:2198][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 15:00:29:2224][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.986 seconds (process running for 2.696)
+[2024-09-30 15:00:29:2320][Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'date' for method parameter type LocalDate is not present]
+[2024-09-30 15:00:29:2334][Test worker] WARN  o.s.test.context.TestContextManager - Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener] for test method [void com.cheolhyeon.weatherapi_mission.controller.DiaryControllerTest.updateDiary() throws java.lang.Exception] and test instance [com.cheolhyeon.weatherapi_mission.controller.DiaryControllerTest@5807ea46]
+org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Misplaced or misused argument matcher detected here:
+
+-> at com.cheolhyeon.weatherapi_mission.controller.DiaryControllerTest.updateDiary(DiaryControllerTest.java:151)
+
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(any());
+    verify(mock).someMethod(contains("foo"))
+
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.resetMocks(ResetMocksTestExecutionListener.java:86)
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.resetMocks(ResetMocksTestExecutionListener.java:73)
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.afterTestMethod(ResetMocksTestExecutionListener.java:67)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:487)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.afterEach(SpringExtension.java:278)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachCallbacks$12(TestMethodTestDescriptor.java:261)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:277)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$14(TestMethodTestDescriptor.java:277)
+	at org.junit.platform.commons.util.CollectionUtils.forEachInReverseOrder(CollectionUtils.java:217)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:276)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachCallbacks(TestMethodTestDescriptor.java:260)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:145)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+[2024-09-30 15:01:04:464][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 15:01:04:484][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 89061 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 15:01:04:485][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 15:01:06:2086][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 15:01:06:2086][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 15:01:06:2089][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+[2024-09-30 15:01:06:2113][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.884 seconds (process running for 2.624)
+[2024-09-30 15:01:06:2204][Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'date' for method parameter type LocalDate is not present]
+[2024-09-30 15:03:44:501][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 15:03:44:528][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 89125 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 15:03:44:529][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 15:03:46:2450][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 15:03:46:2450][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 15:03:46:2452][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 15:03:46:2480][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 2.231 seconds (process running for 2.98)
+[2024-09-30 15:05:51:501][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 15:05:51:533][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 89177 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 15:05:51:535][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 15:05:53:2454][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 15:05:53:2454][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 15:05:53:2457][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 15:05:53:2485][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 2.238 seconds (process running for 3.024)
+[2024-09-30 15:05:53:2561][Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.cheolhyeon.weatherapi_mission.domain.Diary> com.cheolhyeon.weatherapi_mission.controller.DiaryController.updateDiary(java.time.LocalDate,java.lang.String)]
+[2024-09-30 15:06:00:475][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 15:06:00:508][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 89196 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 15:06:00:509][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 15:06:02:2152][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 15:06:02:2153][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 15:06:02:2155][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 15:06:02:2181][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.928 seconds (process running for 2.656)
+[2024-09-30 15:06:02:2251][Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.cheolhyeon.weatherapi_mission.domain.Diary> com.cheolhyeon.weatherapi_mission.controller.DiaryController.updateDiary(java.time.LocalDate,java.lang.String)]
+[2024-09-30 15:06:20:464][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 15:06:20:487][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 89212 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 15:06:20:489][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 15:06:22:2281][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 15:06:22:2281][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 15:06:22:2283][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 15:06:22:2307][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 2.071 seconds (process running for 2.788)
+[2024-09-30 15:06:22:2376][Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.cheolhyeon.weatherapi_mission.domain.Diary> com.cheolhyeon.weatherapi_mission.controller.DiaryController.updateDiary(java.time.LocalDate,java.lang.String)]
+[2024-09-30 15:07:25:484][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 15:07:25:507][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 89254 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 15:07:25:508][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 15:07:26:2106][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 15:07:26:2106][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 15:07:26:2109][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 15:07:27:2132][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.882 seconds (process running for 2.64)
+[2024-09-30 15:07:27:2206][Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.cheolhyeon.weatherapi_mission.domain.Diary> com.cheolhyeon.weatherapi_mission.controller.DiaryController.updateDiary(java.time.LocalDate,java.lang.String)]
+[2024-09-30 15:08:39:464][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 15:08:39:487][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 89292 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 15:08:39:488][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 15:08:41:2174][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 15:08:41:2175][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 15:08:41:2177][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 15:08:41:2204][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.971 seconds (process running for 2.669)
+[2024-09-30 15:08:41:2274][Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.cheolhyeon.weatherapi_mission.domain.Diary> com.cheolhyeon.weatherapi_mission.controller.DiaryController.updateDiary(java.time.LocalDate,java.lang.String)]
+[2024-09-30 15:09:14:483][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 15:09:14:509][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 89318 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 15:09:14:510][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 15:09:15:2195][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 15:09:15:2195][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 15:09:15:2198][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+[2024-09-30 15:09:15:2241][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.974 seconds (process running for 2.74)
+[2024-09-30 15:10:57:499][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 15:10:57:522][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 89357 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 15:10:57:523][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 15:10:59:2416][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 15:10:59:2417][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 15:10:59:2419][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 15:10:59:2447][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 2.192 seconds (process running for 2.952)
+[2024-09-30 15:15:20:470][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 15:15:20:491][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 89454 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 15:15:20:492][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 15:15:22:2182][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 15:15:22:2182][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 15:15:22:2185][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+[2024-09-30 15:15:22:2208][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.983 seconds (process running for 2.711)
+[2024-09-30 15:15:28:496][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 15:15:28:522][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 89471 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 15:15:28:523][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 15:15:29:2175][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 15:15:29:2175][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 15:15:29:2177][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 15:15:29:2202][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 1.928 seconds (process running for 2.738)
+[2024-09-30 15:16:09:498][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 15:16:09:520][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 89491 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 15:16:09:521][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 15:16:10:2258][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 15:16:10:2259][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 15:16:10:2261][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 15:16:10:2288][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 2.04 seconds (process running for 2.82)

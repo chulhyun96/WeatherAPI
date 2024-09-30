@@ -10,7 +10,6 @@ public class AppConfig {
     @PostConstruct
     public void printJavaVersion() {
         String javaVersion = System.getProperty("java.version");
-
         log.info("Java version: {}", javaVersion);
     }
 }
