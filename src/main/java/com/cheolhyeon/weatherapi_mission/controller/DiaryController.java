@@ -9,9 +9,7 @@ import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
-import jakarta.persistence.GeneratedValue;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -19,7 +17,6 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDate;
 import java.util.List;
 
-@Slf4j
 @RestController
 @RequiredArgsConstructor
 public class DiaryController {
@@ -40,7 +37,7 @@ public class DiaryController {
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "성공",
                     content = {@Content(schema = @Schema(implementation = Diary.class))}),
-            @ApiResponse(responseCode = "404", description = "해당 날짜가 아직 DB에 없는것임!!"),
+            @ApiResponse(responseCode = "404", description = "해당 날짜가 아직 DB에 없는것!!"),
     })
     @GetMapping("/read/diary")
     public ResponseEntity<List<Diary>> readDiary(

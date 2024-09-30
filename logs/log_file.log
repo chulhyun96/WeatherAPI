@@ -716,3 +716,30 @@ Mocking methods declared on non-public parent classes is not supported.
 [2024-09-30 15:16:10:2259][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 [2024-09-30 15:16:10:2261][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
 [2024-09-30 15:16:10:2288][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 2.04 seconds (process running for 2.82)
+[2024-09-30 17:02:29:450][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+[2024-09-30 17:02:29:466][Test worker] INFO  c.c.w.WeatherApiMissionApplicationTests - Starting WeatherApiMissionApplicationTests using Java 17.0.9 with PID 92186 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 17:02:29:467][Test worker] INFO  c.c.w.WeatherApiMissionApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 17:02:30:945][Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-09-30 17:02:30:978][Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
+[2024-09-30 17:02:30:1340][Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-09-30 17:02:30:1375][Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+[2024-09-30 17:02:30:1397][Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2024-09-30 17:02:30:1565][Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-09-30 17:02:30:1581][Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2024-09-30 17:02:31:1633][Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@608eb42e
+[2024-09-30 17:02:31:1634][Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2024-09-30 17:02:31:2163][Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-09-30 17:02:31:2196][Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-09-30 17:02:31:2202][Test worker] INFO  c.c.w.config.AppConfig - Java version: 17.0.9
+[2024-09-30 17:02:32:3425][Test worker] INFO  c.c.w.WeatherApiMissionApplicationTests - Started WeatherApiMissionApplicationTests in 3.185 seconds (process running for 3.917)
+[2024-09-30 17:02:33:3836][Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cheolhyeon.weatherapi_mission.controller.DiaryControllerTest]: DiaryControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2024-09-30 17:02:33:3850][Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cheolhyeon.weatherapi_mission.WeatherApiMissionApplication for test class com.cheolhyeon.weatherapi_mission.controller.DiaryControllerTest
+[2024-09-30 17:02:33:3865][Test worker] INFO  c.c.w.c.DiaryControllerTest - Starting DiaryControllerTest using Java 17.0.9 with PID 92186 (started by cheolhyeon in /Users/cheolhyeon/Downloads/WorkSpace/weatherAPI_mission)
+[2024-09-30 17:02:33:3865][Test worker] INFO  c.c.w.c.DiaryControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2024-09-30 17:02:34:4745][Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[2024-09-30 17:02:34:4745][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[2024-09-30 17:02:34:4748][Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+[2024-09-30 17:02:34:4760][Test worker] INFO  c.c.w.c.DiaryControllerTest - Started DiaryControllerTest in 0.908 seconds (process running for 5.252)
+[2024-09-30 17:02:34:5176][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-09-30 17:02:34:5178][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2024-09-30 17:02:34:5180][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
